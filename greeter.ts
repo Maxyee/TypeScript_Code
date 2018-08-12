@@ -43,4 +43,14 @@ var tupArr: [number, boolean];
 
 tupArr = [1,true];
 tupArr = [100, false];
-//---------------------------------------------
+//-----------------------------------------------------
+
+//typescripts function , optional and default function and return type -------------------------
+function add (a : number ,b : number = 1, c?, d? : string)  //here c parameter is optional and b default value is 1, d is also a optional argument which type is string
+{
+    return a+b;
+}
+
+var sum  = add(1,2,3);
+console.log(sum);
+//----------------------------------------------------------------------------------------------
